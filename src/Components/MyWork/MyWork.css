@@ -40,7 +40,7 @@
 
 .mywork-container img:hover{
     transform: scale(1.1);
-    border: 4px solid #ff00ff;
+    border: 4px solid rgba(254,80,147,1);
     border-radius: 10px;
     transition: 0.3s;
 }
@@ -65,6 +65,7 @@
 .mywork-showmore:hover{
     gap: 30px;
     transition: 0.6s;
+    border-color: rgba(254,80,147,1);
 }
 
 @media (max-width: 768px) {

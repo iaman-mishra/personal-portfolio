@@ -8,7 +8,7 @@ const Services = () => {
   return (
     <div id='Services' className='services'>
       <div className="services-title">
-        <h1>Services Available</h1>
+        <h1>Services</h1>
         <img src={theme_pattern} alt="" />
       </div>
       <div className="services-container">

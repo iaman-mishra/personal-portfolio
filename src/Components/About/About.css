@@ -42,7 +42,7 @@
 .about-right{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
 }
 
 .about-para{
@@ -78,7 +78,7 @@
     width: 50%;
     height: 8px;
     border-radius: 50px;
-    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+    background-image: radial-gradient( circle farthest-corner at 12.9% 20.3%,  rgba(255,162,104,1) 0%, rgba(254,80,147,1) 41% );
 }
 
 .about-achievments{
@@ -99,7 +99,7 @@
 .about-achievment h1{
     font-size: 40px;
     font-weight: 700;
-    background: linear-gradient(270deg, #df8908 50.41%, #b415ff 90.25%);
+    background-image: radial-gradient( circle farthest-corner at 12.9% 20.3%,  rgba(255,162,104,1) 0%, rgba(254,80,147,1) 41% );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

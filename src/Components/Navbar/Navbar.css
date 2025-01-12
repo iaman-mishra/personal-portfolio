@@ -4,16 +4,27 @@
     justify-content: space-between;
     margin: 20px 10%;
 }
-
-.logo{
-    width: 100px;
+.logo-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.logo-box-head{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    height: 52px;
+}
+
 .nav-menu li {
     display: flex;
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
 }
+
 
 .navbar li img {
     display: flex;
@@ -36,7 +47,7 @@
 .nav-connect {
     padding: 15px 20px;
     border-radius: 50px;
-    background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+    background-image: radial-gradient( circle farthest-corner at 12.9% 20.3%,  rgba(255,162,104,1) 0%, rgba(254,80,147,1) 41% );
     font-size: 16px;
     cursor: pointer;
     transition: 0.5s;

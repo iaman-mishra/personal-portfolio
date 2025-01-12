@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import footer_logo from '../../assets/footer_logo.svg'
+import logo from '../../assets/logo.png'
 import user_icon from '../../assets/user_icon.svg'
 const Footer = () => {
   return (
@@ -8,7 +8,13 @@ const Footer = () => {
 
         <div className="footer-top">
             <div className="footer-top-left">
-                <img src={footer_logo} alt="" />
+                <div className="logo-box">
+                    <img src={logo} alt="" className='logo' />
+                    <div className="logo-box-head">
+                        <h1>Aman</h1>
+                        <h5>SOFTWARE ENGINEER</h5>
+                    </div>
+                </div>
                 <p>I'm a Software Engineer from INDIA with a passion for building and developing scalable and efficient web applications and Software.</p>
             </div>
             <div className="footer-top-right">
@@ -24,7 +30,7 @@ const Footer = () => {
 
         <div className="footer-bottom">
             <p className="footer-bottom-left">
-                &copy; 2023 All rights reserved by <span>Aman Mishra</span>
+                &copy; 2024 All rights reserved by <span>Aman Mishra</span>
             </p>
             <div className="footer-bottom-right">
                 <p>Term of Services</p>

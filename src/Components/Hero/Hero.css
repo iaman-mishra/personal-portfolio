@@ -20,7 +20,7 @@
 }
 
 .hero h1 span{
-    background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+    background-image: radial-gradient( circle farthest-corner at 12.9% 20.3%,  rgba(255,162,104,1) 0%, rgba(254,80,147,1) 41% );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -44,7 +44,7 @@
 .hero-connect{
     padding: 20px 30px;
     border-radius: 50px;
-    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+    background-image: radial-gradient( circle farthest-corner at 12.9% 20.3%,  rgba(255,162,104,1) 0%, rgba(254,80,147,1) 41% );
     cursor: pointer;
     border: 2px solid transparent;
 }
@@ -57,10 +57,10 @@
 }
 
 .hero-connect:hover{
-    border: 2px solid white;
+    border-color: white;
 }
 .hero-resume:hover{
-    border-color: #b415ff;
+    border-color: rgba(254,80,147,1);
 }
 
 @media(max-width:768px) {

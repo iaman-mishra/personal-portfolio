@@ -15,8 +15,14 @@
 .footer-top-left p{
     font-size: 16px;
     max-width: 450px;
+    gap: 10px;
 }
-
+.logo-box{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
 .footer-top-right{
     display: flex;
     align-items: center;
@@ -49,7 +55,7 @@
     font-size: 16px;
     padding: 18px 40px;
     border-radius: 50px;
-    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+    background-image: radial-gradient( circle farthest-corner at 12.9% 20.3%,  rgba(255,162,104,1) 0%, rgba(254,80,147,1) 41% );
     cursor: pointer;
     transition: 0.3s;
 }
